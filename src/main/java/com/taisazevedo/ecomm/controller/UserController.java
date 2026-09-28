@@ -1,5 +1,7 @@
-package com.taisazevedo.ecomm;
+package com.taisazevedo.ecomm.controller;
 
+import com.taisazevedo.ecomm.model.User;
+import com.taisazevedo.ecomm.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

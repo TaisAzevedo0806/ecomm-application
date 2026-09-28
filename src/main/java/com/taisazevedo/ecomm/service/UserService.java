@@ -1,9 +1,10 @@
-package com.taisazevedo.ecomm;
+package com.taisazevedo.ecomm.service;
 
+import com.taisazevedo.ecomm.repository.UserRepository;
+import com.taisazevedo.ecomm.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
